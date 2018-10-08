@@ -16,7 +16,7 @@ client.on('message',async message => {
 
 if(message.content === 'السلام عليكم') {
 
-  message.channel.send('وعليكم السلام');
+  message.channel.send('وعليكم السلام منور والله');
 
 
 
