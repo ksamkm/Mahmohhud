@@ -18,13 +18,9 @@ if(message.content === 'السلام عليكم') {
 
   message.channel.send('وعليكم السلام');
 
- var embed = new Discord.RichEmbed() 
 
-    .setColor('BLACK')
 
-   
-
-    message.channel.sendEmbed(embed);
+ 
 
 }
 
