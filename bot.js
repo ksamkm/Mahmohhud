@@ -12,15 +12,23 @@ client.on('ready', () => {
 
 
 
-lient.on('message', msg => {
+client.on('message',async message => {
 
-  if (msg.content === 'السلام عليكم') {
+if(message.content === 'اسكت') {
 
-    msg.reply('وعليكم السلام منور');
+  message.channel.send('وعليكم السلام');
 
-  }
+ var embed = new Discord.RichEmbed() 
 
-});
+    .setColor('BLACK')
+
+   
+
+    message.channel.sendEmbed(embed);
+
+}
+
+ });
 
 
 
