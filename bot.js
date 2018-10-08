@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message',async message => {
 
-if(message.content === 'اسكت') {
+if(message.content === 'السلام عليكم') {
 
   message.channel.send('وعليكم السلام');
 
